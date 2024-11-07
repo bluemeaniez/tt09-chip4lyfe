@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-It simulates one singular Leaky Integrate and Fire neuron taking in 
+It simulates one singular Leaky Integrate and Fire neuron taking in an 8-bit number voltage as a current which then generates a spike when a certain threshold of 200 is surpassed. 
 
 ## How to test
 
