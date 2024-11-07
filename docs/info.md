@@ -13,7 +13,7 @@ It simulates one singular Leaky Integrate and Fire neuron taking in an 8-bit num
 
 ## How to test
 
-Explain how to use your project
+N/A
 
 ## External hardware
 
