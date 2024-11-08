@@ -23,34 +23,34 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "Input Current Bit [0]"
-  ui[1]: "Input Current Bit [1]"
-  ui[2]: "Input Current Bit [2]"
-  ui[3]: "Input Current Bit [3]"
-  ui[4]: "Input Current Bit [4]"
-  ui[5]: "Input Current Bit [5]"
-  ui[6]: "Input Current Bit [6]"
-  ui[7]: "Input Current Bit [7]"
+  ui[0]: "Input Current Bit [0] (Input Neuron 1)"
+  ui[1]: "Input Current Bit [1] (Input Neuron 1)"
+  ui[2]: "Input Current Bit [2] (Input Neuron 1)"
+  ui[3]: "Input Current Bit [3] (Input Neuron 1)"
+  ui[4]: "Input Current Bit [4] (Input Neuron 2)"
+  ui[5]: "Input Current Bit [5] (Input Neuron 2)"
+  ui[6]: "Input Current Bit [6] (Input Neuron 2)"
+  ui[7]: "Input Current Bit [7] (Input Neuron 2)"
 
   # Outputs
-  uo[0]: "State Variable Bit [0]"
-  uo[1]: "State Variable Bit [1]"
-  uo[2]: "State Variable Bit [2]"
-  uo[3]: "State Variable Bit [3]"
-  uo[4]: "State Variable Bit [4]"
-  uo[5]: "State Variable Bit [5]"
-  uo[6]: "State Variable Bit [6]"
-  uo[7]: "State Variable Bit [7]"
+  uo[0]: "State Variable Bit [0] (Output Neuron 1)"
+  uo[1]: "State Variable Bit [1] (Output Neuron 1)"
+  uo[2]: "State Variable Bit [2] (Output Neuron 1)"
+  uo[3]: "State Variable Bit [3] (Output Neuron 1)"
+  uo[4]: "State Variable Bit [4] (Output Neuron 2)"
+  uo[5]: "State Variable Bit [5] (Output Neuron 2)"
+  uo[6]: "State Variable Bit [6] (Output Neuron 2)"
+  uo[7]: "State Variable Bit [7] (Output Neuron 2)"
 
   # Bidirectional pins
   uio[0]: ""
   uio[1]: ""
   uio[2]: ""
   uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: "Spike Bit"
+  uio[4]: "Spike Bit (Output Neuron 2)"
+  uio[5]: "Spike Bit (Output Neuron 1)"
+  uio[6]: "Spike Bit (Input Neuron 2)"
+  uio[7]: "Spike Bit (Input Neuron 1)"
 
 # Do not change!
 yaml_version: 6

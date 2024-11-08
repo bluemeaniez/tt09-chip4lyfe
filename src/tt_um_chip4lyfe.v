@@ -30,7 +30,7 @@ module tt_um_chip4lyfe (
   lif lif1_1 (.current(ui_in[3:0]), .clk(clk), .reset_n(rst_n), .state(innerstates_o[3:0]), .spk(uio_out[7]));
   lif lif2_1 (.current(ui_in[7:4]), .clk(clk), .reset_n(rst_n), .state(innerstates_o[7:4]), .spk(uio_out[6]));
 
-  lif lif1_2 (.current({uio_out[7], 3'b000}), .clk(clk), .reset_n(rst_n), .state(uo_out[3:0]), .spk(uio_out[5]));
-  lif lif2_2 (.current({uio_out[6], 3'b000}), .clk(clk), .reset_n(rst_n), .state(uo_out[7:4]), .spk(uio_out[4]));
+  lif lif1_2 (.current({uio_out[7], innerstates_o[3:1]}), .clk(clk), .reset_n(rst_n), .state(uo_out[3:0]), .spk(uio_out[5]));
+  lif lif2_2 (.current({uio_out[6], innerstates_o[7:5]}), .clk(clk), .reset_n(rst_n), .state(uo_out[7:4]), .spk(uio_out[4]));
 
 endmodule
