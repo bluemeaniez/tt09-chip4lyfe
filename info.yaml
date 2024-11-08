@@ -43,14 +43,14 @@ pinout:
   uo[7]: "State Variable Bit [7] (Output Neuron 2)"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: "Spike Bit (Output Neuron 2)"
-  uio[5]: "Spike Bit (Output Neuron 1)"
-  uio[6]: "Spike Bit (Input Neuron 2)"
-  uio[7]: "Spike Bit (Input Neuron 1)"
+  uio[0]: "Spike Bit (Output Layer, Neuron 2)"
+  uio[1]: "Spike Bit (Output Layer, Neuron 1)"
+  uio[2]: "Spike Bit (Inner Layer 2, Neuron 2)"
+  uio[3]: "Spike Bit (Inner Layer 2, Neuron 1)"
+  uio[4]: "Spike Bit (Inner Layer 1, Neuron 2)"
+  uio[5]: "Spike Bit (Inner Layer 1, Neuron 1)"
+  uio[6]: "Spike Bit (Input Layer, Neuron 2)"
+  uio[7]: "Spike Bit (Input Layer, Neuron 1)"
 
 # Do not change!
 yaml_version: 6
